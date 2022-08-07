@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Resturant</string>
+
+    <string name="home_food_tab_meal" >Meal</string>
+    <string name="home_food_tab_pizza" >Pizza</string>
+    <string name="home_food_tab_sandwitch" >Sandwitch</string>
+    <string name="home_food_tab_crepe" >Crepe</string>
+
+
+    <string name="meal_menu_layout_kebab_meal" >Kebab Meal</string>
+    <string name="meal_menu_layout_chicken_meal" >Half Chicken Meal</string>
+    <string name="meal_menu_layout_shish_tawook" >Shish Tawook Meal</string>
+    <string name="meal_menu_layout_mix_grill" >Mix Grill Meal</string>
+    <string name="meal_menu_layout_grilled_liver" >Grilled Liver Meal</string>
+    <string name="meal_menu_layout_grilled_chicken" >Grilled Chicken Meal</string>
+
+
+    <string name="pizza_menu_layout_Margherita_Pizza" >Margherita Pizza</string>
+    <string name="pizza_menu_layout_Chicken_Pizza" >Chicken Pizza</string>
+    <string name="pizza_menu_layout_Meat_Pizza" >Meat Pizza</string>
+    <string name="pizza_menu_layout_Cheese_Pizza" >Cheese Pizza</string>
+    <string name="pizza_menu_layout_Tuna_pizza" >Tuna pizza</string>
+    <string name="pizza_menu_layout_Shrimp_pizza" >Shrimp pizza</string>
+
+
+    <string name="sandwitch_menu_layout_Cheese_Burger" >Cheese Burger</string>
+    <string name="sandwitch_menu_layout_Hawawshi_Sandwich" >Hawawshi Sandwich</string>
+    <string name="sandwitch_menu_layout_Kebab_Sandwich" >Kebab Sandwich</string>
+    <string name="sandwitch_menu_layout_Kofta_Sandwich" >Kofta Sandwich</string>
+    <string name="sandwitch_menu_layout_Meat_Sandwich" >Meat Sandwich</string>
+    <string name="sandwitch_menu_layout_Chicken_Sandwich" >Chicken Sandwich</string>
+
+
+    <string name="next_btn">Next</string>
+
+
+</resources>

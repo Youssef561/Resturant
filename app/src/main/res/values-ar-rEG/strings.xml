@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant</string>
+
+    <string name="home_food_tab_meal">واجبات</string>
+    <string name="home_food_tab_pizza">بيتزا</string>
+    <string name="home_food_tab_crepe">كريب</string>
+    <string name="meal_menu_layout_kebab_meal">"وجبه كباب "</string>
+    <string name="meal_menu_layout_chicken_meal">وجبه فراخ</string>
+    <string name="meal_menu_layout_shish_tawook">وجبه شيش طاووق</string>
+    <string name="meal_menu_layout_mix_grill">وجبه  مكس جريل</string>
+    <string name="meal_menu_layout_grilled_liver">"وجبه كبده مشويه "</string>
+    <string name="meal_menu_layout_grilled_chicken">وجبه فراخ مشويه</string>
+    <string name="pizza_menu_layout_Margherita_Pizza">بيتزا مارجريتا</string>
+    <string name="pizza_menu_layout_Chicken_Pizza">بينزا فراخ</string>
+    <string name="pizza_menu_layout_Meat_Pizza">بيتزا لحمه</string>
+    <string name="pizza_menu_layout_Cheese_Pizza">بيتزا جبنه</string>
+    <string name="pizza_menu_layout_Tuna_pizza">بيتزا تونه</string>
+    <string name="pizza_menu_layout_Shrimp_pizza">بيتزا جمبري</string>
+    <string name="sandwitch_menu_layout_Hawawshi_Sandwich">سندوتش حواوشي</string>
+    <string name="sandwitch_menu_layout_Cheese_Burger">برجر</string>
+    <string name="sandwitch_menu_layout_Kebab_Sandwich">سندوتش كباب</string>
+    <string name="sandwitch_menu_layout_Kofta_Sandwich">سندوتش كفته</string>
+    <string name="sandwitch_menu_layout_Meat_Sandwich">سندوتش لحمه</string>
+    <string name="sandwitch_menu_layout_Chicken_Sandwich">سندوتش فراخ</string>
+    <string name="home_food_tab_sandwitch">ساندوتش</string>
+    <string name="next_btn">"التالى "</string>
+
+
+</resources>
