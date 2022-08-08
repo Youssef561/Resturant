@@ -31,12 +31,12 @@ public class crep_menu extends AppCompatActivity {
         ArrayList<menu> menus=new ArrayList<>();
 
 
-        menus.add(new menu(R.drawable.bargarcrepe , getString(R.string.crepe_menu_layout_Burger_Crepe) ,"17"));
-        menus.add(new menu(R.drawable.sgocrepe , getString(R.string.crepe_menu_layout_Sausage_Crepe) ,"17"));
-        menus.add(new menu(R.drawable.koftacrepe , getString(R.string.crepe_menu_layout_Kofta_crepe) ,"18"));
-        menus.add(new menu(R.drawable.notalla , getString(R.string.crepe_menu_layout_Nutella) ,"27"));
-        menus.add(new menu(R.drawable.meatcrepe , getString(R.string.crepe_menu_layout_Beef_crepe) ,"25"));
-        menus.add(new menu(R.drawable.stchikencrepe , getString(R.string.crepe_menu_layout_Chicken_crepe) ,"22"));
+        menus.add(new menu(R.drawable.bargarcrepe , getString(R.string.crepe_menu_layout_Burger_Crepe) ,"40"));
+        menus.add(new menu(R.drawable.sgocrepe , getString(R.string.crepe_menu_layout_Sausage_Crepe) ,"30"));
+        menus.add(new menu(R.drawable.koftacrepe , getString(R.string.crepe_menu_layout_Kofta_crepe) ,"35"));
+        menus.add(new menu(R.drawable.notalla , getString(R.string.crepe_menu_layout_Nutella) ,"33"));
+        menus.add(new menu(R.drawable.meatcrepe , getString(R.string.crepe_menu_layout_Beef_crepe) ,"39"));
+        menus.add(new menu(R.drawable.stchikencrepe , getString(R.string.crepe_menu_layout_Chicken_crepe) ,"41"));
 
 
         MenuListView myadptar =new MenuListView(this,R.layout.menu_row,menus);
@@ -61,7 +61,7 @@ public class crep_menu extends AppCompatActivity {
                     case 0 :
 
 
-                        result.result_menus.add(new menu( R.drawable.bargarcrepe , getString(R.string.crepe_menu_layout_Burger_Crepe) ,"17" ));
+                        result.result_menus.add(new menu( R.drawable.bargarcrepe , getString(R.string.crepe_menu_layout_Burger_Crepe) ,"40" ));
 
                     View v = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                     Toast t = new Toast(crep_menu.this);
@@ -73,7 +73,7 @@ public class crep_menu extends AppCompatActivity {
                         break;
                     case 1 :
 
-                        result.result_menus.add(new menu( R.drawable.sgocrepe ,getString(R.string.crepe_menu_layout_Sausage_Crepe) ,"17" ));
+                        result.result_menus.add(new menu( R.drawable.sgocrepe ,getString(R.string.crepe_menu_layout_Sausage_Crepe) ,"30" ));
 
                         View v1 = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                         Toast t1 = new Toast(crep_menu.this);
@@ -87,7 +87,7 @@ public class crep_menu extends AppCompatActivity {
 
                     case 2 :
 
-                        result.result_menus.add(new menu(R.drawable.koftacrepe,getString(R.string.crepe_menu_layout_Kofta_crepe) ,"18" ));
+                        result.result_menus.add(new menu(R.drawable.koftacrepe,getString(R.string.crepe_menu_layout_Kofta_crepe) ,"35" ));
 
                         View v2 = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                         Toast t2 = new Toast(crep_menu.this);
@@ -101,7 +101,7 @@ public class crep_menu extends AppCompatActivity {
 
                     case 3 :
 
-                        result.result_menus.add(new menu(R.drawable.notalla , getString(R.string.crepe_menu_layout_Nutella) ,"27" ));
+                        result.result_menus.add(new menu(R.drawable.notalla , getString(R.string.crepe_menu_layout_Nutella) ,"33" ));
 
                         View v3 = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                         Toast t3 = new Toast(crep_menu.this);
@@ -115,7 +115,7 @@ public class crep_menu extends AppCompatActivity {
 
                     case 4 :
 
-                        result.result_menus.add(new menu( R.drawable.meatcrepe ,getString(R.string.crepe_menu_layout_Beef_crepe)  ,"25" ));
+                        result.result_menus.add(new menu( R.drawable.meatcrepe ,getString(R.string.crepe_menu_layout_Beef_crepe)  ,"39" ));
 
                         View v4 = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                         Toast t4 = new Toast(crep_menu.this);
@@ -127,10 +127,10 @@ public class crep_menu extends AppCompatActivity {
                         break;
 
 
-
                     case 5 :
 
-                        result.result_menus.add(new menu( R.drawable.stchikencrepe, getString(R.string.crepe_menu_layout_Chicken_crepe) ,"22" ));
+                        result.result_menus.add(new menu( R.drawable.stchikencrepe, getString(R.string.crepe_menu_layout_Chicken_crepe) ,"41" ));
+
                         View v5 = LayoutInflater.from(crep_menu.this).inflate(R.layout.custom_toast,null,false);
                         Toast t5 = new Toast(crep_menu.this);
                         t5.setView(v5);
@@ -138,7 +138,6 @@ public class crep_menu extends AppCompatActivity {
                         t5.setGravity(Gravity.CENTER , 0 , 0);
                         t5.show();
                         break;
-
 
                 }
 

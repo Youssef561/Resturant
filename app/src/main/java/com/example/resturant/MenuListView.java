@@ -40,7 +40,7 @@ public class MenuListView extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         View v=view;
-        if(v==null)
+        if(v == null)
         {
             v= LayoutInflater.from(c).inflate(resource,null,false);
         }

@@ -6,6 +6,13 @@
     <string name="home_food_tab_sandwitch" >Sandwitch</string>
     <string name="home_food_tab_crepe" >Crepe</string>
 
+    <string name="crepe_menu_layout_Burger_Crepe" >Burger Crepe</string>
+    <string name="crepe_menu_layout_Sausage_Crepe" >Sausage Crepe</string>
+    <string name="crepe_menu_layout_Kofta_crepe" >Kofta crepe</string>
+    <string name="crepe_menu_layout_Nutella" >Nutella and banana crepe</string>
+    <string name="crepe_menu_layout_Beef_crepe" >Beef crepe</string>
+    <string name="crepe_menu_layout_Chicken_crepe" >Chicken crepe</string>
+
 
     <string name="meal_menu_layout_kebab_meal" >Kebab Meal</string>
     <string name="meal_menu_layout_chicken_meal" >Half Chicken Meal</string>
